@@ -3,8 +3,8 @@ n=int(n)
 k=int(k)
 lst=input().split()
 sum=0
-count=0
-while(count<k):
-        sum=sum+int(lst[count])
-        count=count+1
+c=0
+while(c<k):
+        sum=sum+int(lst[c])
+        c+=1
 print(sum)
