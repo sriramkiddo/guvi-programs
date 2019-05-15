@@ -6,5 +6,5 @@ sum=0
 count=0
 while(count<k):
         sum=sum+int(lst[count])
-        count+=1
+        count=count+1
 print(sum)
