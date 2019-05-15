@@ -1,3 +1,3 @@
-count=int(input("enter the count"))
+count=int(input())
 for i in range(count):
     print("Hello")
