@@ -1,0 +1,10 @@
+n,k=input().split()
+n=int(n)
+k=int(k)
+lst=input().split()
+sum=0
+counter=0
+while(counter<k):
+        sum=sum+int(lst[counter])
+        counter+=1
+print(sum)
