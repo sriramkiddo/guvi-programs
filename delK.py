@@ -7,7 +7,7 @@ while j<len(t)-1 and a:
         t=t[:j]+t[j+1:]
         if(j!=0):
             j-=1
-    else:A
+    else:
         j+=1
 s=t[:len(t)-a]
 print(s)
