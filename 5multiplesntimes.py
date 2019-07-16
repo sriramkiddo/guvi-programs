@@ -1,2 +1,2 @@
-a=int(input())
-print(a*1,a*2,a*3,a*4,a*5)
+bruh=int(input())
+print(bruh*1,bruh*2,bruh*3,bruh*4,bruh*5)
