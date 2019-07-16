@@ -10,7 +10,7 @@ while B13>=0 and len(qr)>0:
     mindex=qr.index(max(qr))
     if B13>=C13[mindex]:
         ar=ar+pr[mindex]
-        B=B-C13[mindex]
+        B13=B13-C13[mindex]
     C13.pop(mindex)
     pr.pop(mindex)
     qr.pop(mindex)
