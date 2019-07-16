@@ -1,6 +1,6 @@
-a=input()
-b=a[::-1]
-if(x==b):
-    print("yes")
+n1=list(input())
+k=list(reversed(n1))
+if n1==k:
+	print("yes")
 else:
-    print("no")
+	print("no")
