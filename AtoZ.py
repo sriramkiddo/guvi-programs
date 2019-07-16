@@ -1,11 +1,11 @@
-cha,cho=map(str,input().split())
+k,l=map(str,input().split())
 yas=0
-if len(cha)>len(cho):
-  cha,cho=cho,cha
+if len(k)>len(l):
+  k,l=l,k
 p=0
-while p<len(cha):
-  yas+=(ord(cho[p])-ord(cha[p]))
+while p<len(k):
+  yas+=(ord(l[p])-ord(k[p]))
   p+=1
-for p in range(p,len(cho)):
-  yas+=ord(cho[p])-ord('a')+1
+for p in range(p,len(l)):
+  yas+=ord(l[p])-ord('a')+1
 print(yas)
