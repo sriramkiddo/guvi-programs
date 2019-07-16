@@ -1,7 +1,7 @@
-s=int(input())
-m=0
-for v in range(0,s):
-  if(pow(2,v)>s):
+sm=int(input())
+ms=0
+for v in range(0,sm):
+  if(pow(2,v)>sm):
     break
-  m=s-pow(2,v)
-print(m)
+  ms=sm-pow(2,v)
+print(ms)
