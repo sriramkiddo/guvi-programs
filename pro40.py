@@ -1,10 +1,10 @@
-str1='dhoni'
-inp=input()
-list1=list(inp)
-list1.sort()
-lst=list(str1)
-lst.sort()
-if(lst==list1):
+str3='dhoni'
+in3=input()
+list3=list(in3)
+list3.sort()
+lst3=list(str3)
+lst3.sort()
+if(lst3==list3):
   print("yes")
 else:
   print("no")
