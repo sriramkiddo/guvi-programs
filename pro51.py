@@ -1,7 +1,7 @@
 def n3(l3):
         nn3=1
         for x in range(0,len(l3)-1):
-                if l[x]!=l[x+1]:
+                if l3[x]!=l3[x+1]:
                         nn3=nn3+1
                 else:
                     break
