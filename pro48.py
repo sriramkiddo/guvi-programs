@@ -10,7 +10,7 @@ def fact(a,b):
     else:
       mn = mn*(k*(k+1)) 
   return mn
-for i in li:
+for i in li3:
   if i[0]==5000000 and i[1]==1:
     sa3 = 18703742
   else:
